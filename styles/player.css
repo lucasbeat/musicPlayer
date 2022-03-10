@@ -1,0 +1,34 @@
+.player_buttons {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.back, .forward {
+    cursor: pointer;
+    padding: 5px;
+    height: 25px;
+    border-radius: 50%;
+    width: 25px;
+  
+    font-size: 10px;
+    background-color: #eee;
+}
+
+.play, .pause {
+    cursor: pointer;
+    padding: 5px;
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+
+    font-size: 50px;
+    background-color: #eee;
+}
+
+.pause {
+    display: none;
+}

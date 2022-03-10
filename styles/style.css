@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+#player {
+    height: 90vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #ddd;
+
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+}
+
+.duration {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.bar {
+    display: flex;
+    width: 300px;
+    height: 6px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.duration .bar progress {
+    height: 6px;
+    width: 0%;
+
+    background-color: #333;
+}
+
+.point {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.time {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
